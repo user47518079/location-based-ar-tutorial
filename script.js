@@ -28,13 +28,13 @@ var models = [
     {
         url: './assets/articuno/scene.gltf',
         scale: '0.2 0.2 0.2',
-        rotation: '0 45 0',
+        rotation: '0 270 0',
         info: 'Articuno, Lv. 80, HP 100/100',
     },
     {
         url: './assets/dragonite/scene.gltf',
         scale: '0.08 0.08 0.08',
-        rotation: '0 90 0',
+        rotation: '0 270 0',
         info: 'Dragonite, Lv. 99, HP 150/150',
     },
 ];
