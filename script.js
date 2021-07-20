@@ -23,12 +23,12 @@ var models = [
         url: './assets/magnemite/scene.gltf',
         scale: '0.5 0.5 0.5',
         info: 'Magnemite, Lv. 5, HP 10/10',
-        billboard,
+        rotation: '0 270 0',
     },
     {
         url: './assets/articuno/scene.gltf',
         scale: '0.2 0.2 0.2',
-        billboard,
+        rotation: '0 270 0',
         info: 'Articuno, Lv. 80, HP 100/100',
     },
     {
@@ -46,7 +46,7 @@ var setModel = function (model, entity) {
     }
 
     if (model.rotation) {
-        entity.setAttribute('rotation', model.rotation);
+        entity.setAttribute('rotation', billboard);
     }
 
     if (model.position) {
