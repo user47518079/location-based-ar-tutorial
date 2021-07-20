@@ -1,6 +1,6 @@
 window.onload = () => {
     const button = document.querySelector('button[data-action="change"]');
-    button.innerText = '﹖';
+    button.innerText = 'Next';
 
     let places = staticLoadPlaces();
     renderPlaces(places);
@@ -45,9 +45,9 @@ var setModel = function (model, entity) {
         entity.setAttribute('scale', model.scale);
     }
 
-    if (model.rotation) {
-        entity.setAttribute('rotation', model.rotation);
-    }
+    //if (model.rotation) {
+      //  entity.setAttribute('rotation', model.rotation);
+    //}
 
     if (model.position) {
         entity.setAttribute('position', model.position);
